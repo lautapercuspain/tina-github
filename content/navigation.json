@@ -1,0 +1,32 @@
+[
+  {
+    "id": "docs",
+    "label": "Docs",
+    "href": "/docs",
+    "external": false
+  },
+  {
+    "id": "guides",
+    "label": "Guides",
+    "href": "/guides",
+    "external": false
+  },
+  {
+    "id": "blog",
+    "label": "Blog",
+    "href": "/blog",
+    "external": false
+  },
+  {
+    "id": "cloud",
+    "label": "Tina Cloud",
+    "href": "/cloud",
+    "external": false
+  },
+  {
+    "id": "community",
+    "label": "Community",
+    "href": "/community",
+    "external": false
+  }
+]

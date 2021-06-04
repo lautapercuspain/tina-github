@@ -1,0 +1,48 @@
+{
+  "packages": [
+    {
+      "readme": "https://api.github.com/repos/tinacms/tinacms/contents/packages/react-tinacms-date/README.md",
+      "name": "react-tinacms-date",
+      "link": "https://github.com/tinacms/tinacms/tree/master/packages/react-tinacms-date"
+    },
+    {
+      "readme": "https://api.github.com/repos/tinacms/tinacms/contents/packages/react-tinacms-editor/README.md",
+      "name": "react-tinacms-editor",
+      "link": "https://github.com/tinacms/tinacms/tree/master/packages/react-tinacms-editor"
+    },
+    {
+      "readme": "https://api.github.com/repos/tinacms/tinacms/contents/packages/react-tinacms-github/README.md",
+      "name": "react-tinacms-github",
+      "link": "https://github.com/tinacms/tinacms/tree/master/packages/react-tinacms-github"
+    },
+    {
+      "readme": "https://api.github.com/repos/tinacms/tinacms/contents/packages/react-tinacms-inline/README.md",
+      "name": "react-tinacms-inline",
+      "link": "https://github.com/tinacms/tinacms/tree/master/packages/react-tinacms-inline"
+    },
+    {
+      "readme": "https://api.github.com/repos/tinacms/tinacms/contents/packages/react-tinacms-strapi/README.md",
+      "name": "react-tinacms-strapi",
+      "link": "https://github.com/tinacms/tinacms/tree/master/packages/react-tinacms-strapi"
+    },
+    {
+      "name": "next-tinacms-github",
+      "readme": "https://api.github.com/repos/tinacms/tinacms/contents/packages/next-tinacms-github/README.md",
+      "link": "https://github.com/tinacms/tinacms/tree/master/packages/next-tinacms-github"
+    },
+    {
+      "name": "next-tinacms-json",
+      "readme": "https://api.github.com/repos/tinacms/tinacms/contents/packages/next-tinacms-json/README.md",
+      "link": "https://github.com/tinacms/tinacms/tree/master/packages/next-tinacms-json"
+    },
+    {
+      "name": "next-tinacms-markdown",
+      "readme": "https://api.github.com/repos/tinacms/tinacms/contents/packages/next-tinacms-markdown/README.md",
+      "link": "https://github.com/tinacms/tinacms/tree/master/packages/next-tinacms-markdown"
+    },
+    {
+      "name": "@tinacms/alerts",
+      "link": "https://github.com/tinacms/tinacms/tree/master/packages/%40tinacms/alerts"
+    }
+  ]
+}

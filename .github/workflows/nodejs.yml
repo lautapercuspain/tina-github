@@ -1,0 +1,32 @@
+name: Node CI
+
+on: [push]
+
+env:
+  GITHUB_CLIENT_ID: 'fake'
+  GITHUB_CLIENT_SECRET: 'also-fake'
+  SIGNING_KEY: 'very-fake'
+  BASE_REPO_FULL_NAME: tinacms/tinacms.org
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: yarn install, build, and test
+        run: |
+          yarn install
+          yarn build
+          yarn lint
+          yarn test
+        env:
+          CI: true
